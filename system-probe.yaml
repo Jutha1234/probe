@@ -12,6 +12,7 @@
 ## Uncomment this parameter and the one below to enable them.
 #
 system_probe_config:
+  process_config.enabled: true
   ## @param sysprobe_socket - string - optional - default: /opt/datadog-agent/run/sysprobe.sock
   ## The full path to the location of the unix socket where system probes are accessed.
   #
